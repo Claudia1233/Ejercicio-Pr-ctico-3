@@ -1,0 +1,21 @@
+/* Estilos para encabezados */
+h1, h2, h3 {
+  color: darkblue;
+  font-size: 28px;
+  text-align: center;
+  background-color: lightyellow;
+}
+
+/* Estilos para los párrafos */
+p {
+  color: #333333;
+  background-color: #e6f2ff;
+  text-align: justify;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/* Estilo general del cuerpo */
+body {
+  background-color: #f0f0f0;
+}
