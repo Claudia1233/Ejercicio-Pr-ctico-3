@@ -1,7 +1,6 @@
 /* Estilos para encabezados */
 h1, h2, h3 {
   color: darkblue;
-  font-size: 28px;
   text-align: center;
   background-color: lightyellow;
 }
@@ -18,6 +17,7 @@ p {
 /* Estilo general del cuerpo */
 body {
   background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
 }
 
 /* 🔹 Clase destacado */
@@ -32,4 +32,45 @@ body {
   font-size: 2.5em;
   color: darkblue;
   border: 1px solid black;
+  padding: 10px;
 }
+
+/* 🔹 Estilos de tabla */
+table {
+  width: 80%;
+  margin: 30px auto;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+/* 🔹 Estilo general de las celdas */
+td {
+  border: 1px solid black;
+  background-color: #fffbea;
+  padding: 8px;
+  vertical-align: middle;
+}
+
+/* 🔹 Alternar color en filas pares */
+tr:nth-child(even) {
+  background-color: #e6f7ff;
+}
+
+/* 🔹 Enlaces dentro de la tabla */
+td a {
+  text-decoration: none;
+  color: darkred;
+  font-weight: bold;
+}
+
+td a:hover {
+  color: blue;
+}
+
+/* 🔹 Imágenes dentro de la tabla */
+td img {
+  display: block;
+  margin: 0 auto 10px auto;
+  border-radius: 8px;
+}
+
