@@ -19,3 +19,17 @@ p {
 body {
   background-color: #f0f0f0;
 }
+
+/* 🔹 Clase destacado */
+.destacado {
+  background-color: yellow;
+  font-style: italic;
+  padding: 10px;
+}
+
+/* 🔹 Identificador para el título principal */
+#tituloPrincipal {
+  font-size: 2.5em;
+  color: darkblue;
+  border: 1px solid black;
+}
